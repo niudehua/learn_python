@@ -1,0 +1,6 @@
+{
+    "editor.wordWrap": "on",
+    "python.linting.flake8Enabled": true,
+    "python.linting.enabled": true,
+    "python.pythonPath": "/usr/bin/python3"
+}
