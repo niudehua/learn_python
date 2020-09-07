@@ -1,2 +1,8 @@
 ### VS Code ###
 .vscode/
+
+### PyCharm ###
+.idea/
+
+### 测试文件
+/testfile.txt

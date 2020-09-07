@@ -1,0 +1,37 @@
+"""
+BaseException：所有异常的 **基类**
+Exception：常规异常的 **基类**
+StandardError：所有的内建标准异常的基类
+ArithmeticError：所有数值计算异常的基类
+FloatingPointError：浮点计算异常
+<u>OverflowError</u>：数值运算超出最大限制
+<u>ZeroDivisionError</u>：除数为零
+<u>AssertionError</u>：断言语句（assert）失败
+<u>AttributeError</u>：尝试访问未知的对象属性
+EOFError：没有内建输入，到达EOF标记
+EnvironmentError：操作系统异常的基类
+IOError：输入/输出操作失败
+<u>OSError</u>：操作系统产生的异常（例如打开一个不存在的文件）
+WindowsError：系统调用失败
+<u>ImportError</u>：导入模块失败的时候
+KeyboardInterrupt：用户中断执行
+LookupError：无效数据查询的基类
+<u>IndexError</u>：索引超出序列的范围
+<u>KeyError</u>：字典中查找一个不存在的关键字
+<u>MemoryError</u>：内存溢出（可通过删除对象释放内存）
+<u>NameError</u>：尝试访问一个不存在的变量
+UnboundLocalError：访问未初始化的本地变量
+ReferenceError：弱引用试图访问已经垃圾回收了的对象
+RuntimeError：一般的运行时异常
+NotImplementedError：尚未实现的方法
+<u>SyntaxError</u>：语法错误导致的异常
+IndentationError：缩进错误导致的异常
+TabError：Tab和空格混用
+SystemError：一般的解释器系统异常
+<u>TypeError</u>：不同类型间的无效操作
+<u>ValueError</u>：传入无效的参数
+UnicodeError：Unicode相关的异常
+UnicodeDecodeError：Unicode解码时的异常
+UnicodeEncodeError：Unicode编码错误导致的异常
+UnicodeTranslateError：Unicode转换错误导致的异常
+"""
