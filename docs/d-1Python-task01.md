@@ -1,4 +1,5 @@
-[TOC]
+------
+
 
 # 简介
 
@@ -6,9 +7,9 @@ Python 是一种通用编程语言，其在科学计算和机器学习领域具�
 
 本实验包括以下内容：
 
-# 变量、运算符与数据类型
+## 变量、运算符与数据类型
 
-## 1.注释
+### 1.注释
 
 - 在Python中，# 表示单行注释，作用于整行
 
@@ -33,7 +34,7 @@ print("多行注释")
 print("双引号多行注释")
 ```
 
-## 2.运算符
+### 2.运算符
 **算术运算符**
 
 操作符 | 名称 | 示例
@@ -201,7 +202,7 @@ print(-3 * 2 + 5 / -2 - 4)  # -12.5
 print(3 < 4 and 4 < 5)      # True
 ```
 
-## 3. 变量和赋值
+### 3. 变量和赋值
 
 - 在使用变量之前，需要对其先赋值。
 - 变量名可以包括字母、数字、下划线、但变量名不能以数字开头。
@@ -224,7 +225,7 @@ ourTeacher = myTeacher + ',' + yourTeacher
 print(ourTeacher)  # 老马的程序人生,小马的程序人生
 ```
 
-## 4. 数据类型与转换
+### 4. 数据类型与转换
 
 
 类型 | 名称 | 示例
@@ -372,7 +373,7 @@ print(str(10 + 10))  # 20
 print(str(10.1 + 5.2))  # 15.3
 ```
 
-## 5. print() 函数
+### 5. print() 函数
 ```python
 print(*objects, sep=' ', end='\n', file=sys.stdout, flush=False)
 ```
@@ -426,9 +427,9 @@ for item in shoplist:
 ```
 
 
-# 位运算
+## 位运算
 
-## 1. 原码、反码和补码
+### 1. 原码、反码和补码
 
 二进制有三种不同的表示形式：原码、反码和补码，<u>计算机内部使用补码来表示</u>。
 
@@ -449,7 +450,7 @@ for item in shoplist:
 ```
 **符号位**：最高位为符号位，0表示正数，1表示负数。在位运算中符号位也参与运算。
 
-## 2. 按位运算
+### 2. 按位运算
 
 - 按位非操作 ~
 
@@ -560,7 +561,7 @@ A^B^A: = A^A^B = B = 00 00 01 11
 00 00 00 10 -> 2 
 ```
 
-## 3. 利用位运算实现快速计算
+### 3. 利用位运算实现快速计算
 
 通过 `<<`，`>>` 快速计算2的倍数问题。
 
@@ -595,7 +596,7 @@ a ^= b
 00 00 00 10 -> 2
 ```
 
-## 4. 利用位运算实现整数集合
+### 4. 利用位运算实现整数集合
 
 一个数的二进制表示可以看作是一个集合（0 表示不在集合中，1 表示在集合中）。
 
@@ -659,9 +660,9 @@ print(0xfffffffd)  # 4294967293
 所以为了获得负数（十进制表示）的补码，需要手动将其和十六进制数`0xffffffff`进行按位与操作，再交给`bin()`进行输出，得到的才是负数的补码表示。
 
 
-# 条件语句
+## 条件语句
 
-## 1. if 语句
+### 1. if 语句
 ```python
 if expression:
     expr_true_suite
@@ -678,7 +679,7 @@ if 2 > 1 and not 2 > 3:
 ```
 
 
-## 2. if - else 语句
+### 2. if - else 语句
 
 
 ```python
@@ -730,7 +731,7 @@ else:
 print("游戏结束，不玩儿啦！")
 ```
 
-## 3. if - elif - else 语句
+### 3. if - elif - else 语句
 
 ```python
 if expression1:
@@ -762,7 +763,7 @@ elif 60 > source >= 0:
 else:
     print('输入错误！')
 ```
-## 4. assert 关键词
+### 4. assert 关键词
 
 - `assert`这个关键词我们称之为“断言”，当这个关键词后边的条件为 False 时，程序自动崩溃并抛出`AssertionError`的异常。
 
@@ -780,10 +781,10 @@ assert 3 > 7
 # AssertionError
 ```
 
-# 循环语句
+## 循环语句
 
 
-## 1. while 循环
+### 1. while 循环
 
 `while`语句最基本的形式包括一个位于顶部的布尔表达式，一个或多个属于`while`代码块的缩进语句。
 
@@ -817,7 +818,7 @@ print("游戏结束，不玩儿啦！")
 ```
 
 ---
-## 2. while - else 循环
+### 2. while - else 循环
 
 ```python
 while 布尔表达式:
@@ -861,7 +862,7 @@ else:
 ```
 
 ---
-## 3. for 循环
+### 3. for 循环
 
 `for`循环是迭代循环，在Python中相当于一个通用的序列迭代器，可以遍历任何有序序列，如`str、list、tuple`等，也可以遍历任何可迭代对象，如`dict`。
 
@@ -937,7 +938,7 @@ for value in dic.values():
 ```
 
 ---
-## 4. for - else 循环
+### 4. for - else 循环
 
 ```python
 for 迭代变量 in 可迭代对象:
@@ -973,7 +974,7 @@ for num in range(10, 20):  # 迭代 10 到 20 之间的数字
 ```
 
 ---
-## 5. range() 函数
+### 5. range() 函数
 
 ```python
 range([start,] stop[, step=1])
@@ -1011,7 +1012,7 @@ for i in range(1, 10, 2):
 ```
 
 ---
-## 6. enumerate()函数
+### 6. enumerate()函数
 
 ```python
 enumerate(sequence, [start=0])
@@ -1065,7 +1066,7 @@ print('Done!')
 ```
 
 ---
-## 7. break 语句
+### 7. break 语句
 
 `break`语句可以跳出当前所在层的循环。
 
@@ -1091,7 +1092,7 @@ print("游戏结束，不玩儿啦！")
 ```
 
 ---
-## 8. continue 语句
+### 8. continue 语句
 
 `continue`终止本轮循环并开始下一轮循环。
 
@@ -1118,7 +1119,7 @@ for i in range(10):
 ```
 
 ---
-## 9. pass 语句
+### 9. pass 语句
 
 `pass` 语句的意思是“不做任何事”，如果你在需要有语句的地方不写任何语句，那么解释器会提示出错，而 `pass` 语句就是用来解决这些问题的。
 
@@ -1138,9 +1139,9 @@ def a_func():
 `pass`是空语句，不做任何操作，只起到占位的作用，其作用是为了保持程序结构的完整性。尽管`pass`语句不做任何操作，但如果暂时不确定要在一个位置放上什么样的代码，可以先放置一个`pass`语句，让代码可以正常运行。
 
 ---
-## 10. 推导式
+### 10. 推导式
 
-### 列表推导式
+#### 列表推导式
 
 ```python
 [ expr for value in collection [if condition] ]
@@ -1211,7 +1212,7 @@ print(a)
 # [(0, 2)]
 ```
 
-### 元组推导式
+#### 元组推导式
 
 ```python
 ( expr for value in collection [if condition] )
@@ -1230,7 +1231,7 @@ print(tuple(a))
 # (0, 1, 2, 3, 4, 5, 6, 7, 8, 9)
 ```
 
-### 字典推导式
+#### 字典推导式
 
 ```python
 { key_expr: value_expr for value in collection [if condition] }
@@ -1244,7 +1245,7 @@ print(b)
 # {0: True, 3: False, 6: True, 9: False}
 ```
 
-### 集合推导式
+#### 集合推导式
 
 ```python
 { expr for value in collection [if condition] }
@@ -1258,7 +1259,7 @@ print(c)
 # {1, 2, 3, 4, 5, 6}
 ```
 
-### 其它
+#### 其它
 
 - `next(iterator[, default])` Return the next item from the iterator. If default is given and the iterator is exhausted, it is returned instead of raising Stop Iteration.
 
@@ -1289,11 +1290,11 @@ print(s)  # 5050
 
 
 
-# 异常处理
+## 异常处理
 
 异常就是运行期检测到的错误。计算机语言针对可能出现的错误定义了异常类型，某种错误引发对应的异常时，异常处理程序将被启动，从而恢复程序的正常运行。
 
-## 1. Python 标准异常总结
+### 1. Python 标准异常总结
 
 - BaseException：所有异常的 **基类**
 - Exception：常规异常的 **基类**
@@ -1339,7 +1340,7 @@ print(s)  # 5050
 
 
 ---
-## 2. Python标准警告总结
+### 2. Python标准警告总结
 
 - Warning：警告的基类
 
@@ -1365,7 +1366,7 @@ print(s)  # 5050
 
   ---
 
-## 3. try - except 语句
+### 3. try - except 语句
 ```python
 try:
     检测范围
@@ -1475,7 +1476,7 @@ except (OSError, TypeError, ValueError) as error:
 ```
 
 ---
-## 4. try - except - finally 语句
+### 4. try - except - finally 语句
 try:
     检测范围
 except Exception[as reason]:
@@ -1512,7 +1513,7 @@ divide("2", "1")
 ```
 
 ---
-## 5. try - except - else 语句
+### 5. try - except - else 语句
 
 如果在`try`子句执行时没有发生异常，Python将执行`else`语句后的语句。
 
@@ -1554,7 +1555,7 @@ else:
 注意：`else`语句的存在必须以`except`语句的存在为前提，在没有`except`语句的`try`语句中使用`else`语句，会引发语法错误。
 
 ---
-## 6. raise语句
+### 6. raise语句
 
 Python 使用`raise`语句抛出一个指定的异常。
 

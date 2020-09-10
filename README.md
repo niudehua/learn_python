@@ -1,13 +1,19 @@
-# 训练营内容简介
+# Python训练营
 - Python基础知识，只要勤加练习，你就能成为Python大佬
 - 学生，可以了解未来学习方向；工作者，可以增加工作技能
 
+## 安利一个在线学习Python的文档
+
+- 在线阅读地址：https://snailclimb.gitee.io/javaguide-interview/#/
+- Github：https://github.com/Snailclimb/JavaGuide-Interview
+- 码云：https://gitee.com/SnailClimb/JavaGuide-Interview
+
 ## Task01 
- [Python基础入门：从变量到异常处理（3天）](/Task01/README.md)
+ [Python基础入门：从变量到异常处理（3天）](/docs/Task01/README.md)
 
 ## Task02
 
-Python基础练习：数据结构大汇总（3天）
+ [Python基础练习：数据结构大汇总（3天）](/docs/Task02/README.md)
 
 ## Task 03
 
