@@ -1336,7 +1336,7 @@ print(s)  # 5050
 异常体系内部有层次关系，Python异常体系中的部分关系如下所示：
 
 
-![](https://gitee.com/dehua_niu/oss/raw/master/uPic/SF51E36otkNDlQ9.png)
+![](https://gitee.com/niu_dehua/oss/raw/master/uPic/SF51E36otkNDlQ9.png)
 
 
 
