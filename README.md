@@ -3,7 +3,8 @@
 - 学生，可以了解未来学习方向；工作者，可以增加工作技能
 
 ## 安利一个在线学习Python的文档
-- 在线阅读地址：https://niu_dehua.gitee.io/learn_python/#/
+- 在线阅读地址1：https://niu_dehua.gitee.io/learn_python/#/
+- 在线阅读地址2：https://niudehua.github.io/learn_python/#/
 - GitHub：https://github.com/niudehua/learn_python
 - 码云：https://gitee.com/niu_dehua/learn_python
 
