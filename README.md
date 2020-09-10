@@ -4,7 +4,7 @@
 
 ## 安利一个在线学习Python的文档
 - 在线阅读地址：https://niu_dehua.gitee.io/learn_python/#/
-- GitHub：https://github.com/niudeahua/learn_python
+- GitHub：https://github.com/niudehua/learn_python
 - 码云：https://gitee.com/niu_dehua/learn_python
 
 ## Task01 
