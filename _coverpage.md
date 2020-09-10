@@ -7,7 +7,7 @@
 <h1 align="center">Python基础训练营</h1>
 
 [阿里云天池](https://tianchi.aliyun.com/specials/promotion/aicamppython)
-[GitHub](https://github.com/Snailclimb/docsify-demo)
+[GitHub](https://github.com/niudeahua/learn_python)
 [Python语言参考](https://docs.python.org/zh-cn/3.7/reference/index.html)
 [开始阅读](#Python训练营)
 

@@ -3,9 +3,9 @@
 - 学生，可以了解未来学习方向；工作者，可以增加工作技能
 
 ## 安利一个在线学习Python的文档
-- 在线阅读地址：https://niudehua.github.io/learn_python/#/
-- Github：https://github.com/niudeahua/learn_python
-- 码云：https://gitee.com/niudehua/learn_python
+- 在线阅读地址：https://niu_dehua.gitee.io/learn_python/#/
+- GitHub：https://github.com/niudeahua/learn_python
+- 码云：https://gitee.com/niu_dehua/learn_python
 
 ## Task01 
  [Python基础入门：从变量到异常处理（3天）](/docs/Task01/README.md)
