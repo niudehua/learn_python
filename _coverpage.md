@@ -1,8 +1,5 @@
 <p align="center">
-<!--
-<img src="https://img.sj33.cn/uploads/202005/7-200525101140K8.png" width="200" height="200" />
--->
-<img src="https://www.python.org/static/community_logos/python-logo.png" width="200" height="100"/>
+<img src="https://gitee.com/niu_dehua/oss/raw/master/uPic/python-logo.png" width="200" height="100" alt="logo"/>
 </p>
 <h1 align="center">Python基础训练营</h1>
 
