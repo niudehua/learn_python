@@ -17,7 +17,7 @@
 
 ## Task 03
 
-[Python基础进阶：从函数到高级魔法方法（3天）](/docs/Task03/Python入门(下).md)
+ [Python基础进阶：从函数到高级魔法方法（3天）](/docs/Task03/Python入门(下).md)
 
 ## Task 04
 
