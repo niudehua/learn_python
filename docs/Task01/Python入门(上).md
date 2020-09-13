@@ -1,5 +1,48 @@
 ------
 
+<h1>Python入门(上)</h1>
+
+1. [简介](#简介)
+
+2. [变量、运算符与数据类型](#变量、运算符与数据类型)<br>
+   [1. 注释](#1.-注释)<br>
+   [2. 运算符](#2.-运算符)<br>
+   [3. 变量和赋值](#3.-变量和赋值)<br>
+   [4. 数据类型与转换](#4.-数据类型与转换)<br>
+   [5. print()函数](#5.-print()-函数)<br>
+
+3. [位运算](#位运算)<br>
+   [1. 原码、反码和补码](#1.-原码、反码和补码)<br>
+   [2. 按位运算](#2.-按位运算)<br>
+   [3. 利用位运算实现快速计算](#3.-利用位运算实现快速计算)<br>
+   [4. 利用位运算实现整数集合](#4.-利用位运算实现整数集合)<br>
+   
+4. [条件语句](#条件语句)<br>
+   [1. if 语句](#1.-if-语句)<br>
+   [2. if - else 语句](#2.-if---else-语句)<br>
+   [3. if - elif - else 语句](#3.-if---elif---else-语句)<br>
+   [4. assert 关键词](#4.-assert-关键词)<br>
+   
+5. [循环语句](#循环语句)<br>
+   [1. while 循环](#1.-while-循环)<br>
+   [2. while - else 循环](#2.-while---else-循环)<br>
+   [3. for 循环](#3.-for-循环)<br>
+   [4. for - else 循环](#4.-for---else-循环)<br>
+   [5. range() 函数](#5.-range()-函数)<br>
+   [6. enumerate()函数](#6.-enumerate()函数)<br>
+   [7. break 语句](#7.-break-语句)<br>
+   [8. continue 语句](#8.-continue-语句)<br>
+   [9. pass 语句](#9.-pass-语句)<br>
+   [10. 推导式](#10.-推导式)<br>
+   
+6. [异常处理](#异常处理)<br>
+   [1. Python 标准异常总结](#1.-Python-标准异常总结)<br>
+   [2. Python 标准警告总结](#2.-Python标准警告总结)<br>
+   [3. try - except 语句](#3.-try---except-语句)<br>
+   [4. try - except - finally 语句](#4.-try---except---finally-语句)<br>
+   [5. try - except - else 语句](#5.-try---except---else-语句)<br>
+   [6. raise语句](#6.-raise语句)<br>
+
 [TOC]
 
 ## 简介
